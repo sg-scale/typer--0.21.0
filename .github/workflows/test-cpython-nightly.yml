@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - name: Checkout CPython main
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           repository: python/cpython
           ref: main
